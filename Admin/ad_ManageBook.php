@@ -550,7 +550,7 @@ $books = $conn->query("SELECT * FROM books ORDER BY id DESC");
                 <div class="table-header-control">
                     <h3><i class="fas fa-boxes"></i> Existing Book Repository</h3>
                     <div class="search-box">
-                        <input type="text" placeholder="Search Title, Author or ISBN...">
+                        <input type="text" placeholder="Search Title or Author">
                         <button title="Search"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
